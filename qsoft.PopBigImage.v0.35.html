@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test qsoft.PopBigImage v0.35</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <style type="text/css">
+        .style1
+        {
+            color: #9966FF;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style2
+        {
+            color: #0099FF;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style3
+        {
+            color: #FF99FF;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style4
+        {
+            font-family: "Times New Roman", Times, serif;
+        }
+    </style>
+    
+    <script type="text/javascript" src="qsoft.PopBigImage.v0.35.js"></script>
+    <script type="text/javascript">
+    
+     window.onload = function(){
+        new qsoft.PopBigImage("orig",20,0,2,2).render();  
+        //qsoft.PopBigImage.create("orig",20,0,0.4,0.4,false).render();            
+    }
+    
+    </script>
+
+</head>
+<body>
+<h1>
+
+    <img width="160"  height="120" id="orig" src="dota.jpg" alt=""  />
+    <div style="position: absolute; top: 110px; left: 461px; width: 142px; height: 100px; border-width: 0; ">
+        <img width="160"  height="120" id="win7" src="win7.jpg" alt="" onmouseover="qsoft.PopBigImage.create(this,20,0,2,2,true);" />
+    </div>
+
+
+
+</body>
+</html>
+
+
